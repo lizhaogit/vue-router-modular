@@ -12,6 +12,9 @@ r.keys().forEach((key) => {
     arr = arr.concat(r(key).default);
 });
 
+// 修改
+
+
 export default new Router({
     mode: 'history',
     routes: [{
